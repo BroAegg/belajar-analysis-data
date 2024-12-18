@@ -26,8 +26,8 @@ st.markdown("""
 st.sidebar.markdown("<h1 style='font-size:25px;'>E-Commerce Insights</h1>", unsafe_allow_html=True)
 st.sidebar.markdown("Explore sales, customer data, and product trends with detailed visualizations.", unsafe_allow_html=True)
 
-all_data = pd.read_csv("https://raw.githubusercontent.com/BroAegg/Belajar-Analysis-Data/data_E-commerce_Public/all_data.csv")
-geolocation = pd.read_csv('https://raw.githubusercontent.com/BroAegg/Belajar-Analysis-Data/data_E-commerce_Public/geolocation.csv')
+all_data = pd.read_csv("https://raw.githubusercontent.com/BroAegg/Belajar-Analysis-Data/main/data_E-commerce_Public/all_data.csv")
+geolocation = pd.read_csv('https://raw.githubusercontent.com/BroAegg/Belajar-Analysis-Data/main/data_E-commerce_Public/geolocation.csv')
 
 datetime_cols = ["order_approved_at", "order_delivered_carrier_date", 
                  "order_delivered_customer_date", "order_estimated_delivery_date", 
